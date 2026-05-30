@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: chill-pod
+spec:
+  containers:
+  - name: chill-container
+    image: nginx
+    ports:
+    - containerPort: 80
